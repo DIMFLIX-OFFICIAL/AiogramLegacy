@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[project]
+name = "AiogramLegacy"
+version = "v1.0.0"
+authors = [
+    { name = "DIMFLIX", email = "dimflix.official@gmail.com" },
+]
+
+readme = "README.md"
+description = "💖 A library to simplify the daily development of bots on aiogram "
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "aiogram>3",
+    "asyncpg",
+    "aiomysql",
+    "aiosqlite",
+    "jsonpickle",
+    "aiohttp"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DIMFLIX-OFFICIAL/AiogramLegacy"
+"Bug Tracker" = "https://github.com/DIMFLIX-OFFICIAL/AiogramLegacy/issues"
