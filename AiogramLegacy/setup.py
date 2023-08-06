@@ -7,9 +7,9 @@ setup(
     version='1.0.0',
 
     author_email='dimflix.official@gmail.com',
-    package_dir={'': 'src'},
+    package_dir={'': 'AiogramLegacy'},
     packages=find_packages(
-        'src',
+        'AiogramLegacy',
         include=['storages*', 'questioning*'],
     ),
     install_requires=[
