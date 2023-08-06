@@ -6,6 +6,7 @@ setup(
     description='💖 A library to simplify the daily development of bots on aiogram ',
     version='1.0.0',
 
+    author_email='dimflix.official@gmail.com',
     package_dir={'': 'src'},
     packages=find_packages(
         'src',
